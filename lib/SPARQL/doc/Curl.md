@@ -49,7 +49,7 @@ set debug to true in order to get usefull output
 public string $error_msg
 ```
 
-Contain last error message if error occured
+Contain last error message if error occurred
 
 
 
@@ -176,7 +176,7 @@ string Curl::\Curl::send_post_data()($url, $postdata, $arrayHeader, $ip, $timeou
 ```
 
 Send post data to target URL
-return data returned from url or false if error occured
+return data returned from url or false if error occurred
 
 
 
@@ -199,7 +199,7 @@ string Curl::\Curl::fetch_url()($url, $getdata, $ip, $timeout)
 ```
 
 fetch data from target URL
-return data returned from url or false if error occured
+return data returned from url or false if error occurred
 
 
 
@@ -243,7 +243,7 @@ string Curl::\Curl::send_multipart_post_data()($url, $postdata, $file_field_arra
 ```
 
 Send multipart post data to the target URL
-return data returned from url or false if error occured
+return data returned from url or false if error occurred
 (contribution by vule nikolic, vule@dinke.net)
 
 

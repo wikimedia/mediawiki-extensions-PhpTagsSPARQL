@@ -22,7 +22,7 @@ class Curl
 	var $debug = false;
 
 	/**
-	 * Contain last error message if error occured
+	 * Contain last error message if error occurred
 	 * @access private
 	 * @var string
 	 */
@@ -114,7 +114,7 @@ class Curl
 
 	/**
 	 * Send post data to target URL
-	 * return data returned from url or false if error occured
+	 * return data returned from url or false if error occurred
 	 * @param string url
 	 * @param array assoc post data array ie. $foo['post_var_name'] = $value
 	 * @param string ip address to bind (default null)
@@ -183,7 +183,7 @@ class Curl
 		{
 			if($this->debug)
 			{
-				echo "Error Occured in Curl\n";
+				echo "Error occurred in Curl\n";
 				echo "Error number: " .curl_errno($this->ch) ."\n";
 				echo "Error message: " .curl_error($this->ch)."\n";
 			}
@@ -198,7 +198,7 @@ class Curl
 
 	/**
 	 * fetch data from target URL
-	 * return data returned from url or false if error occured
+	 * return data returned from url or false if error occurred
 	 * @param string url
 	 * @param array assoc get data array ie. $foo['post_var_name'] = $value
 	 * @param string ip address to bind (default null)
@@ -266,7 +266,7 @@ class Curl
 		{
 			if($this->debug)
 			{
-				echo "Error Occured in Curl\n";
+				echo "Error occurred in Curl\n";
 				echo "Error number: " .curl_errno($this->ch) ."\n";
 				echo "Error message: " .curl_error($this->ch)."\n";
 			}
@@ -322,7 +322,7 @@ class Curl
 		{
 			if($this->debug)
 			{
-				echo "Error Occured in Curl\n";
+				echo "Error occurred in Curl\n";
 				echo "Error number: " .curl_errno($this->ch) ."\n";
 				echo "Error message: " .curl_error($this->ch)."\n";
 			}
@@ -337,7 +337,7 @@ class Curl
 
 	/**
 	 * Send multipart post data to the target URL
-	 * return data returned from url or false if error occured
+	 * return data returned from url or false if error occurred
 	 * (contribution by vule nikolic, vule@dinke.net)
 	 * @param string url
 	 * @param array assoc post data array ie. $foo['post_var_name'] = $value
@@ -431,7 +431,7 @@ class Curl
 		{
 			if($this->debug)
 			{
-				echo "Error Occured in Curl\n";
+				echo "Error occurred in Curl\n";
 				echo "Error number: " .curl_errno($this->ch) ."\n";
 				echo "Error message: " .curl_error($this->ch)."\n";
 			}
@@ -557,7 +557,7 @@ class Curl
 		{
 			if($this->debug)
 			{
-				echo "Error Occured in Curl\n";
+				echo "Error occurred in Curl\n";
 				echo "Error number: " .curl_errno($this->ch) ."\n";
 				echo "Error message: " .curl_error($this->ch)."\n";
 			}
@@ -618,7 +618,7 @@ class Curl
 		{
 			if($this->debug)
 			{
-				echo "Error Occured in Curl\n";
+				echo "Error occurred in Curl\n";
 				echo "Error number: " .curl_errno($this->ch) ."\n";
 				echo "Error message: " .curl_error($this->ch)."\n";
 			}
@@ -668,7 +668,7 @@ class Curl
 		{
 			if($this->debug)
 			{
-				echo "Error Occured in Curl\n";
+				echo "Error occurred in Curl\n";
 				echo "Error number: " .curl_errno($this->ch) ."\n";
 				echo "Error message: " .curl_error($this->ch)."\n";
 			}
