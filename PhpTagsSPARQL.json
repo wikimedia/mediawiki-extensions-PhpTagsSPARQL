@@ -3,10 +3,10 @@
 		"Endpoint": {
 			"class": "SparqlEndpoint",
 			"METHODS": {
-				"__construct" : {
+				"__construct": {
 					"parameters": [
 						{ "type": "string", "name": "endpoint", "default": "null" },
-						{ "type": "boolean", "name": "usePostHttpMethod", "default": "true"}
+						{ "type": "boolean", "name": "usePostHttpMethod", "default": "true" }
 					],
 					"return": "Object",
 					"desc": "Returns new object"
