@@ -6,6 +6,9 @@
 	"descriptionmsg": "phptagssparql-desc",
 	"license-name": "GPL-2.0-or-later",
 	"type": "phptags",
+	"requires": {
+		"MediaWiki": ">= 1.31.0"
+	},
 	"MessagesDirs": {
 		"PhpTagsSPARQL": [
 			"i18n"
