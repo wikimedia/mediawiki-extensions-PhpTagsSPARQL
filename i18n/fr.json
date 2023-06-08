@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Wladek92"
+			"Wladek92",
+			"Verdy p"
 		]
 	},
-	"phptagssparql-desc": "Client HTTP PhpTags Sparql pour les points terminaux SPARQL1.1"
+	"phptagssparql-desc": "Client HTTP PhpTags SPARQL pour les points de terminaison de SPARQL 1.1"
 }
