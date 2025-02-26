@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"phptagssparql-desc": "Cliente HTTP PhpTags Sparql para os extremos de SPARQL1.1"
+}
