@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tensama0415"
+		]
+	},
+	"phptagssparql-desc": "SPARQL1.1의 엔드포인트를 위한 PhpTags Sparql HTTP 클라이언트"
+}
